@@ -38,3 +38,5 @@ puts
 print "input your name :"
 name = gets
 puts "Hello,#{name}!"
+
+print("%d %.2f %s\n", 1, 99.3, "Justin")
