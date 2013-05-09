@@ -59,3 +59,4 @@ puts 14
 hash_array = {a: [1,2,3], b:[1,2,3]}
 array_hash = [{a:1, b:2}, {c:3, d:10}]
 puts hash_array
+
