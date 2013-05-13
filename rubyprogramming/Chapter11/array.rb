@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # Array
 
 # ruby  F:\github\helloruby\rubyprogramming\Chapter11\array.rb
@@ -13,9 +14,9 @@ p a
 a = Array.new(5)  #建立长度为5的值全部为nil的数组
 p a
 
-# error
-# b = Array.new(5 , 0)  #建立长度为5，数组值为0的数组
-# P b
+
+b = Array.new(5 , 0)  #建立长度为5，数组值为0的数组
+p b
 
 # %w 建立数组  元素是字符串且不含空白
 lang = %w(ruby perl python java php .net)
@@ -27,8 +28,8 @@ p color_table.to_a
 
 #error
 # split 将逗号or空白隔开的字符串 转化为 数组
-# column = "1985/1/1 09：00 test.html proxy01.example.ne.jp".split
-# p column
+column = "1985/1/1 09:00 test.html proxy01.example.ne.jp".split
+p column
 
 # 索引
 num = [1,2,3,4,5,6,7,8,9,10]

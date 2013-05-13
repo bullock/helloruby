@@ -36,5 +36,5 @@ end
 
 puts
 print "input your name :"
-name = gets
+name = 1
 puts "Hello,#{name}!"
